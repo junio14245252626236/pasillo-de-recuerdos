@@ -2,7 +2,7 @@ function mostrarRecuerdo(id) {
     const recuerdos = {
         '1': `
       <h2>Un día especial en familia</h2>
-      <p>Fuimos al parque, comimos helado y tomamos esta hermosa foto.</p>
+      <p>Fuimos cerca del parque y comimos rico un dia de comida y felizidad.</p>
       <img src="imagenes/foto1.jpg" width="100%">
       <br><br>
       <button onclick="cerrarPopup()">⬅ Volver</button>
