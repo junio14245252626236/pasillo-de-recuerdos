@@ -9,7 +9,7 @@ function mostrarRecuerdo(id) {
     `,
         '2': `
       <h2>Mi primer dibujo digital</h2>
-      <p>Este dibujo lo hice usando una tableta gráfica. ¡Estaba muy feliz!</p>
+      <p>Estaba muy buena pero un poco seca jajaja. ¡Estaba muy feliz!</p>
       <img src="imagenes/foto2.jpg" width="100%">
       <br><br>
       <button onclick="cerrarPopup()">⬅ Volver</button>
