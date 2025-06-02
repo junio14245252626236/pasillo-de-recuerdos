@@ -55,8 +55,20 @@ h1 {
     background: #222;
     padding: 30px;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 300px;
+    /* Aumentamos el ancho para que el contenido respire */
     color: white;
+}
+
+
+/* ✅ Nueva clase para hacer la imagen pequeña en el detalle */
+
+#contenido-recuerdo img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
 }
 
 .cerrar {
