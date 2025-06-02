@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+h1 {
+  padding: 20px;
+  font-size: 2em;
+}
+.pasillo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.recuerdo {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 12px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.recuerdo:hover {
+  transform: scale(1.05);
+  background-color: #2a2a2a;
+}
+.recuerdo img {
+  width: 100%;
+  border-radius: 8px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#contenido-recuerdo {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  color: white;
+}
+.cerrar {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
